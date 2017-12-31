@@ -27,6 +27,8 @@ gitamine:
 gitamine:
   pre-commit:
     phpcs:
-      bin: bin/phpcs   #default phpcs
-      standard: PSR2   #default depends on your phpcs configuration
+      bin: bin/phpcs          # Default phpcs
+      phpcbf-bin: bin/phpcbf  # Default phpcbf
+      phpcbf: true            # Default false. Executes phpcbf before phpcs
+      standard: PSR2          # Default depends on your phpcs configuration
 ```
