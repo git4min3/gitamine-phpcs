@@ -32,5 +32,3 @@ then
     fi
     eval "${BIN}" --colors -p "${STANDARD}" "${FILES}"
 fi
-
-
