@@ -1,0 +1,7 @@
+{
+  "name": "gitamine-phpcs",
+  "authors": [
+    "Javier González Cuadrado <xgc1986@gmail.com>"
+  ],
+  "plugin": "git4min3/gitamine-phpcs"
+}
